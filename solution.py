@@ -14,4 +14,4 @@ def solution(number):
         return 0
     return solution_r(number-1)
 
-assert(solution(10) == 23, "Yay")
+assert solution(10) == 23, "Oops, recursion is the devil"
